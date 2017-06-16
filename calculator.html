@@ -3,6 +3,7 @@
 <head>
   <h1>Calculator</h1>
   <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -15,17 +16,17 @@
     <input type="button" value="/" onclick="number.value=number.value + '/'">
     <input type="button" value="x" onclick="number.value=number.value + '*'">>
     <input type="button" value="CE" onclick="removeLastChar()">
-    <input type="button" value="7" onclick="number.value=number.value + 7">
-    <input type="button" value="8" onclick="number.value=number.value + 8">
-    <input type="button" value="9" onclick="number.value=number.value + 9">
+    <input type="button" class="number_button" value="7" onclick="number.value=number.value + 7">
+    <input type="button" class="number_button" value="8" onclick="number.value=number.value + 8">
+    <input type="button"class="number_button"  value="9" onclick="number.value=number.value + 9">
     <input type="button" value="-" onclick="number.value=number.value + '-'">
-    <input type="button" value="4" onclick="number.value=number.value + 4">
-    <input type="button" value="5" onclick="number.value=number.value + 5">
-    <input type="button" value="6" onclick="number.value=number.value + 6">
+    <input type="button" class="number_button" value="4" onclick="number.value=number.value + 4">
+    <input type="button" class="number_button" value="5" onclick="number.value=number.value + 5">
+    <input type="button" class="number_button" value="6" onclick="number.value=number.value + 6">
     <input type="button" value="+" onclick="number.value=number.value + '+'">
-    <input type="button" value="1" onclick="number.value=number.value + 1">
-    <input type="button" value="2" onclick="number.value=number.value + 2">
-    <input type="button" value="3" onclick="number.value=number.value + 3">
+    <input type="button" class="number_button" value="1" onclick="number.value=number.value + 1">
+    <input type="button" class="number_button" value="2" onclick="number.value=number.value + 2">
+    <input type="button" class="number_button" value="3" onclick="number.value=number.value + 3">
     <input type="button" value="=" onclick="getResult()">
   </div>
 
