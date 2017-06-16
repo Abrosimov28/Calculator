@@ -16,3 +16,10 @@ function enterGetResult(e){
 function removeLastChar() {
   document.getElementById('number').value = document.getElementById('number').value.slice(0, -1);
 }
+
+$(document).ready(function(){
+    $('.number_button').on('click', function(e){
+        number = $(this).attr('value');
+        console.log(number);
+    })
+})
